@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Inverter Service API
+Bundle-SymbolicName: org.fipro.inverter.api
+Bundle-Version: 1.0.0
+Automatic-Module-Name: org.fipro.inverter.api
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.fipro.inverter;version="1.0.0"
+Provide-Capability: osgi.extender;
+ osgi.extender="osgi.component";
+ version:Version="1.3";
+ uses:="org.osgi.service.component"
